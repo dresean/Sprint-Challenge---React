@@ -1,8 +1,24 @@
 .App {
   text-align: center;
+  display: flex;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  display: flex;
+}
+.Card {
+  display: flex;
+  box-sizing: border-box;
+  margin: 20px, 20px;
+  padding: 10px, 10px;
+}
+.CardText {
+  font-size: 19px;
+  color: "white";
+  display: flex;
+  word-wrap: wrap;
+  padding: 10px, 10px;
+  margin: auto;
 }
 /* write your parent styles in here for your App.js */
