@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import InfoList from './components/InfoList';
 class App extends Component {
   constructor() {
     super();
@@ -27,6 +27,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+      <InfoList chars={this.state.starwarsChars}/>
+      {/* <TradingCard props={this.state.starwarsChars}/> */}
       </div>
     );
   }
